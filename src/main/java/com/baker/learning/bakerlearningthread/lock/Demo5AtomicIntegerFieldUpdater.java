@@ -23,7 +23,7 @@ public class Demo5AtomicIntegerFieldUpdater {
 
     static class User {
         private String userName;
-        private volatile int age;
+        public volatile int age;
 
         public User(String userName, int age) {
             this.userName = userName;
