@@ -6,7 +6,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @desc CountDownLatch全部完成
+ * @desc 一个或者多个线程，等待其他多个线程完成某件事情之后才能执行
  * @date 2020/2/10 0010 - 17:55
  **/
 @Slf4j
